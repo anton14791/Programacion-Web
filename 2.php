@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crear tabla con filas y columnas</title>
+</head>
+<body>
+	<script>
+		var i, j;
+
+		var filas = Number(prompt("Ingrese el numero de filas"));
+		var colum = Number(prompto("Introduce el numero de columnas"));
+
+		var res = filas * colum;
+
+		document.write("<table border>");
+
+		for (i = 0; i < filas; i++) {
+
+			document.write("<tr>");
+
+			for (j = 0; j < colum; j++) {
+
+				document.write("<td>");
+
+				document.write(res);
+
+				res ;
+
+				document.write("</td>");
+			}
+
+			document.write("</tr>");
+		}
+		document.write("</table>");
+	</script>
+
+</body>
+</html>

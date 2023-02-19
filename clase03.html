@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Creacion de Formularios</title>
+</head>
+<body>
+	<form action="?" name="frmagenda" method="post">
+		<p>Datos Personales</p>
+		<input type="text" name="txtdatos" placeholder="Datos">
+        <p>Contraseña</p><input type="password" name="txtpass" maxlength="8" size="20%">
+		<p>Edad</p><input type="number" name="Edad">
+		<input type="hidden" name="txtsueldo">
+		<p>Comentario</p>
+		<textarea name="txtcomen" rows="5" cols="25" wrap="off"></textarea>
+		<p>Especialidad</p>
+		<select name="txtespe">
+			<option>Ninguna</option>
+			<option>Computacion</option>
+			<option>Diseño Web</option>
+			<option>Base de Datos</option>
+			<option selected="">Programacion</option>
+			<option>Diseño Digital</option>
+		</select>
+		<p>Seguro</p>
+		<input type="checkbox" name="seguro">AFP
+		<input type="checkbox" name="seguro">Essalud
+		<p>Fecha de Nacimiento</p>
+		<input type="date" name="txtfecha">
+		<p>Sexo</p>
+		<input type="radio" name="x">Masculino
+		<input type="radio" name="x">Femenino
+		<input type="radio" name="x">Sin especificar
+		<br>
+		<p>Adjuntar Archivo</p><input type="file" name="txtarchivo"><br><br>
+		<input type="submit" name="btnenviar" value="Enviar Datos">
+		<input type="reset" name="btnrest" value="Cancelar">
+	</form>
+
+</body>
+</html>
